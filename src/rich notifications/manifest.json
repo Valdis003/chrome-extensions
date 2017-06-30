@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter notificator",
+
+  "background": {
+    "page":"background.html"
+  },
+
+  "version": "1.0",
+  "permissions": [
+    "notifications",
+    "https://twitter.com/"
+  ]
+}
